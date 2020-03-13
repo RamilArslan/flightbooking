@@ -97,9 +97,10 @@ public class Console {
 
     private static void userLogInMenu() {
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("You are not logged in. Available commands:");
-        System.out.println(" new user     log in");
+        System.out.println("____________________________________________");
+        System.out.println("|You are not logged in. Available commands:|");
+        System.out.println("|     new user   *******   log in          |");
+        System.out.println("____________________________________________");
 
         String input = sc.nextLine();
         switch (input) {
